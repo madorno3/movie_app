@@ -1,0 +1,86 @@
+body{
+    background: url(colors2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    /* background-image: url('whiteblack.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */ */
+}
+
+* {
+    box-sizing: border-box;
+    /* margin: 0px;
+    padding: 0px; */
+  }
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+}
+
+
+form {
+    display: table;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#title {
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: rgb(238, 197, 167);
+}
+
+#rating {
+    border-radius: 20px;
+    background-color: rgb(238, 197, 167);
+}
+
+#submit {
+    display: table;
+    margin: auto;
+    margin-bottom: 100px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+h4 {
+    margin-bottom: 0;
+    color: white;
+}
+
+#div{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-shadow: 6px 6px 6px black;
+
+}
+
+/* .div>button {
+    float: right;
+    position: relative;
+    left: 10%;
+    
+    
+} */
+
+/* .delete{
+    /* width: 20px; */
+    /* display: block;
+    background-color: brown;
+} */ */
